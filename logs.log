@@ -3510,3 +3510,649 @@
                subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
 2021-11-19 16:05:37,468:INFO:create_model() succesfully completed......................................
 2021-11-19 16:05:37,591:INFO:SubProcess create_model() end ==================================
+2021-11-19 16:05:37,592:INFO:Creating metrics dataframe
+2021-11-19 16:05:37,688:INFO:Initializing create_model()
+2021-11-19 16:05:37,688:INFO:create_model(estimator=DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort='deprecated',
+                       random_state=5, splitter='best'), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, verbose=False, system=False, metrics=None, add_to_model_list=True, display=None, kwargs={})
+2021-11-19 16:05:37,689:INFO:Checking exceptions
+2021-11-19 16:05:37,689:INFO:Importing libraries
+2021-11-19 16:05:37,689:INFO:Copying training dataset
+2021-11-19 16:05:37,690:INFO:Defining folds
+2021-11-19 16:05:37,690:INFO:Declaring metric variables
+2021-11-19 16:05:37,690:INFO:Importing untrained model
+2021-11-19 16:05:37,690:INFO:Declaring custom model
+2021-11-19 16:05:37,691:INFO:Decision Tree Classifier Imported succesfully
+2021-11-19 16:05:37,692:INFO:Cross validation set to False
+2021-11-19 16:05:37,692:INFO:Fitting Model
+2021-11-19 16:05:37,703:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort='deprecated',
+                       random_state=5, splitter='best')
+2021-11-19 16:05:37,703:INFO:create_models() succesfully completed......................................
+2021-11-19 16:05:37,907:INFO:create_model_container: 14
+2021-11-19 16:05:37,907:INFO:master_model_container: 14
+2021-11-19 16:05:37,908:INFO:display_container: 2
+2021-11-19 16:05:37,908:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort='deprecated',
+                       random_state=5, splitter='best')
+2021-11-19 16:05:37,908:INFO:compare_models() succesfully completed......................................
+2021-11-19 16:08:30,255:INFO:Initializing create_model()
+2021-11-19 16:08:30,255:INFO:create_model(estimator=rf, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=True, system=True, metrics=None, add_to_model_list=True, display=None, kwargs={})
+2021-11-19 16:08:30,255:INFO:Checking exceptions
+2021-11-19 16:08:30,256:INFO:Preparing display monitor
+2021-11-19 16:08:30,276:INFO:Importing libraries
+2021-11-19 16:08:30,276:INFO:Copying training dataset
+2021-11-19 16:08:30,278:INFO:Defining folds
+2021-11-19 16:08:30,278:INFO:Declaring metric variables
+2021-11-19 16:08:30,288:INFO:Importing untrained model
+2021-11-19 16:08:30,297:INFO:Random Forest Classifier Imported succesfully
+2021-11-19 16:08:30,317:INFO:Starting cross validation
+2021-11-19 16:08:30,317:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2021-11-19 16:08:32,849:INFO:Calculating mean and std
+2021-11-19 16:08:32,850:INFO:Creating metrics dataframe
+2021-11-19 16:08:32,864:INFO:Finalizing model
+2021-11-19 16:08:33,624:INFO:Uploading results into container
+2021-11-19 16:08:33,625:INFO:Uploading model into container now
+2021-11-19 16:08:33,677:INFO:create_model_container: 15
+2021-11-19 16:08:33,678:INFO:master_model_container: 15
+2021-11-19 16:08:33,679:INFO:display_container: 3
+2021-11-19 16:08:33,680:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=100,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False)
+2021-11-19 16:08:33,681:INFO:create_model() succesfully completed......................................
+2021-11-19 16:09:14,197:INFO:Initializing tune_model()
+2021-11-19 16:09:14,197:INFO:tune_model(estimator=rf, fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=False, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, display=None, kwargs={})
+2021-11-19 16:09:14,197:INFO:Checking exceptions
+2021-11-19 16:09:38,847:INFO:Initializing tune_model()
+2021-11-19 16:09:38,848:INFO:tune_model(estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=100,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=False, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, display=None, kwargs={})
+2021-11-19 16:09:38,848:INFO:Checking exceptions
+2021-11-19 16:09:38,851:INFO:Preparing display monitor
+2021-11-19 16:09:38,877:INFO:Copying training dataset
+2021-11-19 16:09:38,878:INFO:Checking base model
+2021-11-19 16:09:38,878:INFO:Base model : Random Forest Classifier
+2021-11-19 16:09:38,887:INFO:Declaring metric variables
+2021-11-19 16:09:38,896:INFO:Defining Hyperparameters
+2021-11-19 16:09:39,029:INFO:Tuning with n_jobs=-1
+2021-11-19 16:09:39,029:INFO:Initializing RandomizedSearchCV
+2021-11-19 16:10:07,483:INFO:best_params: {'actual_estimator__n_estimators': 110, 'actual_estimator__min_samples_split': 5, 'actual_estimator__min_samples_leaf': 2, 'actual_estimator__min_impurity_decrease': 0.0001, 'actual_estimator__max_features': 'log2', 'actual_estimator__max_depth': 8, 'actual_estimator__criterion': 'entropy', 'actual_estimator__class_weight': {}, 'actual_estimator__bootstrap': True}
+2021-11-19 16:10:07,485:INFO:Hyperparameter search completed
+2021-11-19 16:10:07,486:INFO:SubProcess create_model() called ==================================
+2021-11-19 16:10:07,489:INFO:Initializing create_model()
+2021-11-19 16:10:07,489:INFO:create_model(estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=100,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, verbose=True, system=False, metrics=None, add_to_model_list=True, display=<pycaret.internal.Display.Display object at 0x0000026CC690A588>, kwargs={'n_estimators': 110, 'min_samples_split': 5, 'min_samples_leaf': 2, 'min_impurity_decrease': 0.0001, 'max_features': 'log2', 'max_depth': 8, 'criterion': 'entropy', 'class_weight': {}, 'bootstrap': True})
+2021-11-19 16:10:07,489:INFO:Checking exceptions
+2021-11-19 16:10:07,489:INFO:Importing libraries
+2021-11-19 16:10:07,490:INFO:Copying training dataset
+2021-11-19 16:10:07,492:INFO:Defining folds
+2021-11-19 16:10:07,493:INFO:Declaring metric variables
+2021-11-19 16:10:07,528:INFO:Importing untrained model
+2021-11-19 16:10:07,529:INFO:Declaring custom model
+2021-11-19 16:10:07,566:INFO:Random Forest Classifier Imported succesfully
+2021-11-19 16:10:07,631:INFO:Starting cross validation
+2021-11-19 16:10:07,632:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2021-11-19 16:10:10,091:INFO:Calculating mean and std
+2021-11-19 16:10:10,093:INFO:Creating metrics dataframe
+2021-11-19 16:10:10,110:INFO:Finalizing model
+2021-11-19 16:10:10,903:INFO:Uploading results into container
+2021-11-19 16:10:10,904:INFO:Uploading model into container now
+2021-11-19 16:10:10,905:INFO:create_model_container: 16
+2021-11-19 16:10:10,905:INFO:master_model_container: 16
+2021-11-19 16:10:10,905:INFO:display_container: 4
+2021-11-19 16:10:10,907:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, n_estimators=110,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False)
+2021-11-19 16:10:10,907:INFO:create_model() succesfully completed......................................
+2021-11-19 16:10:11,066:INFO:SubProcess create_model() end ==================================
+2021-11-19 16:10:11,089:INFO:create_model_container: 16
+2021-11-19 16:10:11,089:INFO:master_model_container: 16
+2021-11-19 16:10:11,090:INFO:display_container: 4
+2021-11-19 16:10:11,090:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, n_estimators=110,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False)
+2021-11-19 16:10:11,090:INFO:tune_model() succesfully completed......................................
+2021-11-19 16:10:54,676:INFO:Initializing evaluate_model()
+2021-11-19 16:10:54,676:INFO:evaluate_model(estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, n_estimators=110,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False), fold=None, fit_kwargs=None, feature_name=None, groups=None, use_train_data=False)
+2021-11-19 16:10:54,697:INFO:Initializing plot_model()
+2021-11-19 16:10:54,697:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, n_estimators=110,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=parameter, save=False, scale=1, system=True)
+2021-11-19 16:10:54,698:INFO:Checking exceptions
+2021-11-19 16:10:54,815:INFO:Preparing display monitor
+2021-11-19 16:10:54,829:INFO:Preloading libraries
+2021-11-19 16:10:54,847:INFO:Copying training dataset
+2021-11-19 16:10:54,848:INFO:Copying test dataset
+2021-11-19 16:10:54,848:INFO:Plot type: parameter
+2021-11-19 16:10:55,147:INFO:Visual Rendered Successfully
+2021-11-19 16:10:55,287:INFO:plot_model() succesfully completed......................................
+2021-11-19 16:11:02,948:INFO:Initializing plot_model()
+2021-11-19 16:11:02,949:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, n_estimators=110,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=auc, save=False, scale=1, system=True)
+2021-11-19 16:11:02,949:INFO:Checking exceptions
+2021-11-19 16:11:03,065:INFO:Preparing display monitor
+2021-11-19 16:11:03,079:INFO:Preloading libraries
+2021-11-19 16:11:03,093:INFO:Copying training dataset
+2021-11-19 16:11:03,093:INFO:Copying test dataset
+2021-11-19 16:11:03,094:INFO:Plot type: auc
+2021-11-19 16:11:03,334:INFO:Fitting Model
+2021-11-19 16:11:03,340:INFO:Scoring test/hold-out set
+2021-11-19 16:11:18,810:INFO:Initializing plot_model()
+2021-11-19 16:11:18,810:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, n_estimators=110,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=confusion_matrix, save=False, scale=1, system=True)
+2021-11-19 16:11:18,810:INFO:Checking exceptions
+2021-11-19 16:11:18,922:INFO:Preparing display monitor
+2021-11-19 16:11:18,930:INFO:Preloading libraries
+2021-11-19 16:11:18,944:INFO:Copying training dataset
+2021-11-19 16:11:18,945:INFO:Copying test dataset
+2021-11-19 16:11:18,945:INFO:Plot type: confusion_matrix
+2021-11-19 16:11:19,178:INFO:Fitting Model
+2021-11-19 16:11:19,181:INFO:Scoring test/hold-out set
+2021-11-19 16:11:20,608:INFO:Visual Rendered Successfully
+2021-11-19 16:11:20,738:INFO:plot_model() succesfully completed......................................
+2021-11-19 16:11:46,887:INFO:Initializing plot_model()
+2021-11-19 16:11:46,888:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, n_estimators=110,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=tree, save=False, scale=1, system=True)
+2021-11-19 16:11:46,888:INFO:Checking exceptions
+2021-11-19 16:11:47,000:INFO:Preparing display monitor
+2021-11-19 16:11:47,014:INFO:Preloading libraries
+2021-11-19 16:11:47,030:INFO:Copying training dataset
+2021-11-19 16:11:47,031:INFO:Copying test dataset
+2021-11-19 16:11:47,031:INFO:Plot type: tree
+2021-11-19 16:11:48,795:INFO:Plotting decision trees
+2021-11-19 16:12:03,100:INFO:Initializing plot_model()
+2021-11-19 16:12:03,101:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, n_estimators=110,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=dimension, save=False, scale=1, system=True)
+2021-11-19 16:12:03,101:INFO:Checking exceptions
+2021-11-19 16:12:03,214:INFO:Preparing display monitor
+2021-11-19 16:12:03,228:INFO:Preloading libraries
+2021-11-19 16:12:03,242:INFO:Copying training dataset
+2021-11-19 16:12:03,243:INFO:Copying test dataset
+2021-11-19 16:12:03,243:INFO:Plot type: dimension
+2021-11-19 16:12:03,528:INFO:Fitting StandardScaler()
+2021-11-19 16:12:03,536:INFO:Fitting PCA()
+2021-11-19 16:12:03,560:INFO:Fitting & Transforming Model
+2021-11-19 16:12:04,391:INFO:Visual Rendered Successfully
+2021-11-19 16:12:04,634:INFO:plot_model() succesfully completed......................................
+2021-11-19 16:12:07,959:INFO:Initializing plot_model()
+2021-11-19 16:12:07,960:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, n_estimators=110,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=learning, save=False, scale=1, system=True)
+2021-11-19 16:12:07,960:INFO:Checking exceptions
+2021-11-19 16:12:08,082:INFO:Preparing display monitor
+2021-11-19 16:12:08,103:INFO:Preloading libraries
+2021-11-19 16:12:08,127:INFO:Copying training dataset
+2021-11-19 16:12:08,128:INFO:Copying test dataset
+2021-11-19 16:12:08,128:INFO:Plot type: learning
+2021-11-19 16:12:08,353:INFO:Fitting Model
+2021-11-19 16:12:26,311:INFO:Visual Rendered Successfully
+2021-11-19 16:12:26,540:INFO:plot_model() succesfully completed......................................
+2021-11-19 16:12:37,815:INFO:Initializing plot_model()
+2021-11-19 16:12:37,816:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, n_estimators=110,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=feature, save=False, scale=1, system=True)
+2021-11-19 16:12:37,816:INFO:Checking exceptions
+2021-11-19 16:12:37,947:INFO:Preparing display monitor
+2021-11-19 16:12:37,971:INFO:Preloading libraries
+2021-11-19 16:12:37,989:INFO:Copying training dataset
+2021-11-19 16:12:37,989:INFO:Copying test dataset
+2021-11-19 16:12:37,990:INFO:Plot type: feature
+2021-11-19 16:12:38,217:WARNING:No coef_ found. Trying feature_importances_
+2021-11-19 16:12:38,496:INFO:Visual Rendered Successfully
+2021-11-19 16:12:38,735:INFO:plot_model() succesfully completed......................................
+2021-11-19 16:12:43,864:INFO:Initializing plot_model()
+2021-11-19 16:12:43,864:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, n_estimators=110,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=boundary, save=False, scale=1, system=True)
+2021-11-19 16:12:43,865:INFO:Checking exceptions
+2021-11-19 16:12:43,977:INFO:Preparing display monitor
+2021-11-19 16:12:43,992:INFO:Preloading libraries
+2021-11-19 16:12:44,004:INFO:Copying training dataset
+2021-11-19 16:12:44,005:INFO:Copying test dataset
+2021-11-19 16:12:44,005:INFO:Plot type: boundary
+2021-11-19 16:12:44,247:INFO:Fitting StandardScaler()
+2021-11-19 16:12:44,268:INFO:Fitting PCA()
+2021-11-19 16:12:44,288:INFO:Fitting Model
+2021-11-19 16:12:48,324:INFO:Visual Rendered Successfully
+2021-11-19 16:12:48,638:INFO:plot_model() succesfully completed......................................
+2021-11-19 16:13:42,874:INFO:Initializing plot_model()
+2021-11-19 16:13:42,874:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, n_estimators=110,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=error, save=False, scale=1, system=True)
+2021-11-19 16:13:42,874:INFO:Checking exceptions
+2021-11-19 16:13:42,990:INFO:Preparing display monitor
+2021-11-19 16:13:43,006:INFO:Preloading libraries
+2021-11-19 16:13:43,033:INFO:Copying training dataset
+2021-11-19 16:13:43,034:INFO:Copying test dataset
+2021-11-19 16:13:43,035:INFO:Plot type: error
+2021-11-19 16:13:43,259:INFO:Fitting Model
+2021-11-19 16:13:43,263:INFO:Scoring test/hold-out set
+2021-11-19 16:13:47,402:INFO:Initializing plot_model()
+2021-11-19 16:13:47,403:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, n_estimators=110,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=auc, save=False, scale=1, system=True)
+2021-11-19 16:13:47,403:INFO:Checking exceptions
+2021-11-19 16:13:47,520:INFO:Preparing display monitor
+2021-11-19 16:13:47,544:INFO:Preloading libraries
+2021-11-19 16:13:47,581:INFO:Copying training dataset
+2021-11-19 16:13:47,582:INFO:Copying test dataset
+2021-11-19 16:13:47,583:INFO:Plot type: auc
+2021-11-19 16:13:47,820:INFO:Fitting Model
+2021-11-19 16:13:47,823:INFO:Scoring test/hold-out set
+2021-11-19 16:13:53,231:INFO:Initializing plot_model()
+2021-11-19 16:13:53,232:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, n_estimators=110,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=vc, save=False, scale=1, system=True)
+2021-11-19 16:13:53,232:INFO:Checking exceptions
+2021-11-19 16:13:53,346:INFO:Preparing display monitor
+2021-11-19 16:13:53,371:INFO:Preloading libraries
+2021-11-19 16:13:53,397:INFO:Copying training dataset
+2021-11-19 16:13:53,397:INFO:Copying test dataset
+2021-11-19 16:13:53,398:INFO:Plot type: vc
+2021-11-19 16:13:53,632:INFO:Determining param_name
+2021-11-19 16:13:53,634:INFO:param_name: actual_estimator__max_depth
+2021-11-19 16:13:53,637:INFO:Fitting Model
+2021-11-19 16:14:14,539:INFO:Visual Rendered Successfully
+2021-11-19 16:14:14,964:INFO:plot_model() succesfully completed......................................
+2021-11-19 16:15:58,359:INFO:Initializing create_model()
+2021-11-19 16:15:58,360:INFO:create_model(estimator=et, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=True, system=True, metrics=None, add_to_model_list=True, display=None, kwargs={})
+2021-11-19 16:15:58,360:INFO:Checking exceptions
+2021-11-19 16:15:58,361:INFO:Preparing display monitor
+2021-11-19 16:15:58,385:INFO:Importing libraries
+2021-11-19 16:15:58,385:INFO:Copying training dataset
+2021-11-19 16:15:58,386:INFO:Defining folds
+2021-11-19 16:15:58,386:INFO:Declaring metric variables
+2021-11-19 16:15:58,397:INFO:Importing untrained model
+2021-11-19 16:15:58,409:INFO:Extra Trees Classifier Imported succesfully
+2021-11-19 16:15:58,431:INFO:Starting cross validation
+2021-11-19 16:15:58,432:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2021-11-19 16:16:00,757:INFO:Calculating mean and std
+2021-11-19 16:16:00,758:INFO:Creating metrics dataframe
+2021-11-19 16:16:00,769:INFO:Finalizing model
+2021-11-19 16:16:01,525:INFO:Uploading results into container
+2021-11-19 16:16:01,526:INFO:Uploading model into container now
+2021-11-19 16:16:01,596:INFO:create_model_container: 17
+2021-11-19 16:16:01,597:INFO:master_model_container: 17
+2021-11-19 16:16:01,598:INFO:display_container: 5
+2021-11-19 16:16:01,600:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='auto',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_impurity_split=None,
+                     min_samples_leaf=1, min_samples_split=2,
+                     min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False)
+2021-11-19 16:16:01,600:INFO:create_model() succesfully completed......................................
+2021-11-19 16:19:18,810:INFO:Initializing tune_model()
+2021-11-19 16:19:18,812:INFO:tune_model(estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='auto',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_impurity_split=None,
+                     min_samples_leaf=1, min_samples_split=2,
+                     min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=F1, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=False, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, display=None, kwargs={})
+2021-11-19 16:19:18,812:INFO:Checking exceptions
+2021-11-19 16:19:18,814:INFO:Preparing display monitor
+2021-11-19 16:19:18,836:INFO:Copying training dataset
+2021-11-19 16:19:18,837:INFO:Checking base model
+2021-11-19 16:19:18,837:INFO:Base model : Extra Trees Classifier
+2021-11-19 16:19:18,846:INFO:Declaring metric variables
+2021-11-19 16:19:18,855:INFO:Defining Hyperparameters
+2021-11-19 16:19:18,987:INFO:Tuning with n_jobs=-1
+2021-11-19 16:19:18,987:INFO:Initializing RandomizedSearchCV
+2021-11-19 16:19:45,191:INFO:best_params: {'actual_estimator__n_estimators': 110, 'actual_estimator__min_samples_split': 5, 'actual_estimator__min_samples_leaf': 2, 'actual_estimator__min_impurity_decrease': 0.0001, 'actual_estimator__max_features': 'log2', 'actual_estimator__max_depth': 8, 'actual_estimator__criterion': 'entropy', 'actual_estimator__class_weight': {}, 'actual_estimator__bootstrap': True}
+2021-11-19 16:19:45,191:INFO:Hyperparameter search completed
+2021-11-19 16:19:45,192:INFO:SubProcess create_model() called ==================================
+2021-11-19 16:19:45,192:INFO:Initializing create_model()
+2021-11-19 16:19:45,194:INFO:create_model(estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='auto',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_impurity_split=None,
+                     min_samples_leaf=1, min_samples_split=2,
+                     min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, verbose=True, system=False, metrics=None, add_to_model_list=True, display=<pycaret.internal.Display.Display object at 0x0000026CD02F6A08>, kwargs={'n_estimators': 110, 'min_samples_split': 5, 'min_samples_leaf': 2, 'min_impurity_decrease': 0.0001, 'max_features': 'log2', 'max_depth': 8, 'criterion': 'entropy', 'class_weight': {}, 'bootstrap': True})
+2021-11-19 16:19:45,194:INFO:Checking exceptions
+2021-11-19 16:19:45,194:INFO:Importing libraries
+2021-11-19 16:19:45,194:INFO:Copying training dataset
+2021-11-19 16:19:45,194:INFO:Defining folds
+2021-11-19 16:19:45,195:INFO:Declaring metric variables
+2021-11-19 16:19:45,206:INFO:Importing untrained model
+2021-11-19 16:19:45,206:INFO:Declaring custom model
+2021-11-19 16:19:45,221:INFO:Extra Trees Classifier Imported succesfully
+2021-11-19 16:19:45,251:INFO:Starting cross validation
+2021-11-19 16:19:45,252:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2021-11-19 16:19:47,858:INFO:Calculating mean and std
+2021-11-19 16:19:47,861:INFO:Creating metrics dataframe
+2021-11-19 16:19:47,908:INFO:Finalizing model
+2021-11-19 16:19:48,754:INFO:Uploading results into container
+2021-11-19 16:19:48,755:INFO:Uploading model into container now
+2021-11-19 16:19:48,755:INFO:create_model_container: 18
+2021-11-19 16:19:48,756:INFO:master_model_container: 18
+2021-11-19 16:19:48,756:INFO:display_container: 6
+2021-11-19 16:19:48,758:INFO:ExtraTreesClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                     criterion='entropy', max_depth=8, max_features='log2',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0001, min_impurity_split=None,
+                     min_samples_leaf=2, min_samples_split=5,
+                     min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False)
+2021-11-19 16:19:48,759:INFO:create_model() succesfully completed......................................
+2021-11-19 16:19:48,900:INFO:SubProcess create_model() end ==================================
+2021-11-19 16:19:48,933:INFO:create_model_container: 18
+2021-11-19 16:19:48,934:INFO:master_model_container: 18
+2021-11-19 16:19:48,934:INFO:display_container: 6
+2021-11-19 16:19:48,934:INFO:ExtraTreesClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                     criterion='entropy', max_depth=8, max_features='log2',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0001, min_impurity_split=None,
+                     min_samples_leaf=2, min_samples_split=5,
+                     min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False)
+2021-11-19 16:19:48,934:INFO:tune_model() succesfully completed......................................
+2021-11-19 16:21:08,186:INFO:Initializing evaluate_model()
+2021-11-19 16:21:08,186:INFO:evaluate_model(estimator=ExtraTreesClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                     criterion='entropy', max_depth=8, max_features='log2',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0001, min_impurity_split=None,
+                     min_samples_leaf=2, min_samples_split=5,
+                     min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False), fold=None, fit_kwargs=None, feature_name=None, groups=None, use_train_data=False)
+2021-11-19 16:21:08,226:INFO:Initializing plot_model()
+2021-11-19 16:21:08,226:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                     criterion='entropy', max_depth=8, max_features='log2',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0001, min_impurity_split=None,
+                     min_samples_leaf=2, min_samples_split=5,
+                     min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=parameter, save=False, scale=1, system=True)
+2021-11-19 16:21:08,226:INFO:Checking exceptions
+2021-11-19 16:21:08,347:INFO:Preparing display monitor
+2021-11-19 16:21:08,357:INFO:Preloading libraries
+2021-11-19 16:21:08,371:INFO:Copying training dataset
+2021-11-19 16:21:08,371:INFO:Copying test dataset
+2021-11-19 16:21:08,372:INFO:Plot type: parameter
+2021-11-19 16:21:08,636:INFO:Visual Rendered Successfully
+2021-11-19 16:21:08,764:INFO:plot_model() succesfully completed......................................
+2021-11-19 16:21:13,926:INFO:Initializing plot_model()
+2021-11-19 16:21:13,927:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                     criterion='entropy', max_depth=8, max_features='log2',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0001, min_impurity_split=None,
+                     min_samples_leaf=2, min_samples_split=5,
+                     min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=error, save=False, scale=1, system=True)
+2021-11-19 16:21:13,927:INFO:Checking exceptions
+2021-11-19 16:21:14,036:INFO:Preparing display monitor
+2021-11-19 16:21:14,050:INFO:Preloading libraries
+2021-11-19 16:21:14,070:INFO:Copying training dataset
+2021-11-19 16:21:14,071:INFO:Copying test dataset
+2021-11-19 16:21:14,071:INFO:Plot type: error
+2021-11-19 16:21:14,310:INFO:Fitting Model
+2021-11-19 16:21:14,314:INFO:Scoring test/hold-out set
+2021-11-19 16:21:32,955:INFO:Initializing plot_model()
+2021-11-19 16:21:32,956:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                     criterion='entropy', max_depth=8, max_features='log2',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0001, min_impurity_split=None,
+                     min_samples_leaf=2, min_samples_split=5,
+                     min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=rfe, save=False, scale=1, system=True)
+2021-11-19 16:21:32,956:INFO:Checking exceptions
+2021-11-19 16:21:34,511:INFO:Initializing plot_model()
+2021-11-19 16:21:34,512:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                     criterion='entropy', max_depth=8, max_features='log2',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0001, min_impurity_split=None,
+                     min_samples_leaf=2, min_samples_split=5,
+                     min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=class_report, save=False, scale=1, system=True)
+2021-11-19 16:21:34,512:INFO:Checking exceptions
+2021-11-19 16:21:34,634:INFO:Preparing display monitor
+2021-11-19 16:21:34,656:INFO:Preloading libraries
+2021-11-19 16:21:34,676:INFO:Copying training dataset
+2021-11-19 16:21:34,676:INFO:Copying test dataset
+2021-11-19 16:21:34,676:INFO:Plot type: class_report
+2021-11-19 16:21:34,919:INFO:Fitting Model
+2021-11-19 16:21:34,923:INFO:Scoring test/hold-out set
+2021-11-19 16:21:36,674:INFO:Initializing plot_model()
+2021-11-19 16:21:36,675:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                     criterion='entropy', max_depth=8, max_features='log2',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0001, min_impurity_split=None,
+                     min_samples_leaf=2, min_samples_split=5,
+                     min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=error, save=False, scale=1, system=True)
+2021-11-19 16:21:36,675:INFO:Checking exceptions
+2021-11-19 16:21:36,786:INFO:Preparing display monitor
+2021-11-19 16:21:36,800:INFO:Preloading libraries
+2021-11-19 16:21:36,825:INFO:Copying training dataset
+2021-11-19 16:21:36,826:INFO:Copying test dataset
+2021-11-19 16:21:36,827:INFO:Plot type: error
+2021-11-19 16:21:37,062:INFO:Fitting Model
+2021-11-19 16:21:37,066:INFO:Scoring test/hold-out set
+2021-11-19 16:22:10,176:INFO:Initializing evaluate_model()
+2021-11-19 16:22:10,176:INFO:evaluate_model(estimator=ExtraTreesClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                     criterion='entropy', max_depth=8, max_features='log2',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0001, min_impurity_split=None,
+                     min_samples_leaf=2, min_samples_split=5,
+                     min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False), fold=None, fit_kwargs=None, feature_name=None, groups=None, use_train_data=False)
+2021-11-19 16:22:10,197:INFO:Initializing plot_model()
+2021-11-19 16:22:10,198:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                     criterion='entropy', max_depth=8, max_features='log2',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0001, min_impurity_split=None,
+                     min_samples_leaf=2, min_samples_split=5,
+                     min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=parameter, save=False, scale=1, system=True)
+2021-11-19 16:22:10,199:INFO:Checking exceptions
+2021-11-19 16:22:10,307:INFO:Preparing display monitor
+2021-11-19 16:22:10,324:INFO:Preloading libraries
+2021-11-19 16:22:10,337:INFO:Copying training dataset
+2021-11-19 16:22:10,338:INFO:Copying test dataset
+2021-11-19 16:22:10,338:INFO:Plot type: parameter
+2021-11-19 16:22:10,608:INFO:Visual Rendered Successfully
+2021-11-19 16:22:10,781:INFO:plot_model() succesfully completed......................................
+2021-11-19 16:22:13,004:INFO:Initializing plot_model()
+2021-11-19 16:22:13,004:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                     criterion='entropy', max_depth=8, max_features='log2',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0001, min_impurity_split=None,
+                     min_samples_leaf=2, min_samples_split=5,
+                     min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=error, save=False, scale=1, system=True)
+2021-11-19 16:22:13,004:INFO:Checking exceptions
+2021-11-19 16:22:13,141:INFO:Preparing display monitor
+2021-11-19 16:22:13,158:INFO:Preloading libraries
+2021-11-19 16:22:13,185:INFO:Copying training dataset
+2021-11-19 16:22:13,186:INFO:Copying test dataset
+2021-11-19 16:22:13,186:INFO:Plot type: error
+2021-11-19 16:22:13,426:INFO:Fitting Model
+2021-11-19 16:22:13,431:INFO:Scoring test/hold-out set
+2021-11-19 16:22:15,461:INFO:Initializing plot_model()
+2021-11-19 16:22:15,462:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                     criterion='entropy', max_depth=8, max_features='log2',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0001, min_impurity_split=None,
+                     min_samples_leaf=2, min_samples_split=5,
+                     min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=auc, save=False, scale=1, system=True)
+2021-11-19 16:22:15,462:INFO:Checking exceptions
+2021-11-19 16:22:15,577:INFO:Preparing display monitor
+2021-11-19 16:22:15,585:INFO:Preloading libraries
+2021-11-19 16:22:15,599:INFO:Copying training dataset
+2021-11-19 16:22:15,599:INFO:Copying test dataset
+2021-11-19 16:22:15,600:INFO:Plot type: auc
+2021-11-19 16:22:15,846:INFO:Fitting Model
+2021-11-19 16:22:15,852:INFO:Scoring test/hold-out set
+2021-11-19 16:22:18,021:INFO:Initializing plot_model()
+2021-11-19 16:22:18,021:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                     criterion='entropy', max_depth=8, max_features='log2',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0001, min_impurity_split=None,
+                     min_samples_leaf=2, min_samples_split=5,
+                     min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=parameter, save=False, scale=1, system=True)
+2021-11-19 16:22:18,022:INFO:Checking exceptions
+2021-11-19 16:22:18,133:INFO:Preparing display monitor
+2021-11-19 16:22:18,147:INFO:Preloading libraries
+2021-11-19 16:22:18,168:INFO:Copying training dataset
+2021-11-19 16:22:18,169:INFO:Copying test dataset
+2021-11-19 16:22:18,170:INFO:Plot type: parameter
+2021-11-19 16:22:18,436:INFO:Visual Rendered Successfully
+2021-11-19 16:22:18,605:INFO:plot_model() succesfully completed......................................
+2021-11-19 16:22:19,902:INFO:Initializing plot_model()
+2021-11-19 16:22:19,902:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                     criterion='entropy', max_depth=8, max_features='log2',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0001, min_impurity_split=None,
+                     min_samples_leaf=2, min_samples_split=5,
+                     min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=-1,
+                     oob_score=False, random_state=5, verbose=0,
+                     warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=confusion_matrix, save=False, scale=1, system=True)
+2021-11-19 16:22:19,903:INFO:Checking exceptions
+2021-11-19 16:22:20,033:INFO:Preparing display monitor
+2021-11-19 16:22:20,057:INFO:Preloading libraries
+2021-11-19 16:22:20,093:INFO:Copying training dataset
+2021-11-19 16:22:20,094:INFO:Copying test dataset
+2021-11-19 16:22:20,094:INFO:Plot type: confusion_matrix
+2021-11-19 16:22:20,322:INFO:Fitting Model
+2021-11-19 16:22:20,325:INFO:Scoring test/hold-out set
+2021-11-19 16:22:21,519:INFO:Visual Rendered Successfully
+2021-11-19 16:22:21,654:INFO:plot_model() succesfully completed......................................
+2021-11-19 16:22:33,876:INFO:Initializing plot_model()
+2021-11-19 16:22:33,876:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight={},
+                       criterion='entropy', max_depth=8, max_features='log2',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0001, min_impurity_split=None,
+                       min_samples_leaf=2, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, n_estimators=110,
+                       n_jobs=-1, oob_score=False, random_state=5, verbose=0,
+                       warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=confusion_matrix, save=False, scale=1, system=True)
+2021-11-19 16:22:33,876:INFO:Checking exceptions
+2021-11-19 16:22:33,992:INFO:Preparing display monitor
+2021-11-19 16:22:34,015:INFO:Preloading libraries
+2021-11-19 16:22:34,046:INFO:Copying training dataset
+2021-11-19 16:22:34,047:INFO:Copying test dataset
+2021-11-19 16:22:34,047:INFO:Plot type: confusion_matrix
+2021-11-19 16:22:34,278:INFO:Fitting Model
+2021-11-19 16:22:34,282:INFO:Scoring test/hold-out set
+2021-11-19 16:22:35,567:INFO:Visual Rendered Successfully
+2021-11-19 16:22:35,696:INFO:plot_model() succesfully completed......................................
