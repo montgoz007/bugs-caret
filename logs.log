@@ -11210,3 +11210,178 @@
                                verbosity=0)]],
          verbose=False)
 2021-11-29 18:22:17,435:INFO:save_model() successfully completed......................................
+2021-11-29 18:24:10,433:INFO:Initializing evaluate_model()
+2021-11-29 18:24:10,433:INFO:evaluate_model(estimator=XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=0.7, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints='',
+              learning_rate=0.1, max_delta_step=0, max_depth=5,
+              min_child_weight=3, missing=nan, monotone_constraints='()',
+              n_estimators=130, n_jobs=-1, num_parallel_tree=1,
+              objective='multi:softprob', random_state=3255, reg_alpha=4,
+              reg_lambda=0.01, scale_pos_weight=6.800000000000001,
+              subsample=0.9, tree_method='auto', use_label_encoder=True,
+              validate_parameters=1, verbosity=0), fold=None, fit_kwargs=None, feature_name=None, groups=None, use_train_data=False)
+2021-11-29 18:24:10,463:INFO:Initializing plot_model()
+2021-11-29 18:24:10,463:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=0.7, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints='',
+              learning_rate=0.1, max_delta_step=0, max_depth=5,
+              min_child_weight=3, missing=nan, monotone_constraints='()',
+              n_estimators=130, n_jobs=-1, num_parallel_tree=1,
+              objective='multi:softprob', random_state=3255, reg_alpha=4,
+              reg_lambda=0.01, scale_pos_weight=6.800000000000001,
+              subsample=0.9, tree_method='auto', use_label_encoder=True,
+              validate_parameters=1, verbosity=0), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=parameter, save=False, scale=1, system=True)
+2021-11-29 18:24:10,463:INFO:Checking exceptions
+2021-11-29 18:24:10,854:INFO:Preparing display monitor
+2021-11-29 18:24:10,863:INFO:Preloading libraries
+2021-11-29 18:24:11,267:INFO:Copying training dataset
+2021-11-29 18:24:11,269:INFO:Copying test dataset
+2021-11-29 18:24:11,274:INFO:Plot type: parameter
+2021-11-29 18:24:11,872:INFO:Visual Rendered Successfully
+2021-11-29 18:24:12,064:INFO:plot_model() succesfully completed......................................
+2021-11-29 18:24:15,239:INFO:Initializing plot_model()
+2021-11-29 18:24:15,240:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=0.7, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints='',
+              learning_rate=0.1, max_delta_step=0, max_depth=5,
+              min_child_weight=3, missing=nan, monotone_constraints='()',
+              n_estimators=130, n_jobs=-1, num_parallel_tree=1,
+              objective='multi:softprob', random_state=3255, reg_alpha=4,
+              reg_lambda=0.01, scale_pos_weight=6.800000000000001,
+              subsample=0.9, tree_method='auto', use_label_encoder=True,
+              validate_parameters=1, verbosity=0), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=confusion_matrix, save=False, scale=1, system=True)
+2021-11-29 18:24:15,240:INFO:Checking exceptions
+2021-11-29 18:24:15,508:INFO:Preparing display monitor
+2021-11-29 18:24:15,513:INFO:Preloading libraries
+2021-11-29 18:24:15,857:INFO:Copying training dataset
+2021-11-29 18:24:15,859:INFO:Copying test dataset
+2021-11-29 18:24:15,860:INFO:Plot type: confusion_matrix
+2021-11-29 18:24:16,472:INFO:Fitting Model
+2021-11-29 18:24:16,475:INFO:Scoring test/hold-out set
+2021-11-29 18:24:17,919:INFO:Visual Rendered Successfully
+2021-11-29 18:24:18,078:INFO:plot_model() succesfully completed......................................
+2021-11-29 18:25:35,693:INFO:Initializing plot_model()
+2021-11-29 18:25:35,695:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=0.7, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints='',
+              learning_rate=0.1, max_delta_step=0, max_depth=5,
+              min_child_weight=3, missing=nan, monotone_constraints='()',
+              n_estimators=130, n_jobs=-1, num_parallel_tree=1,
+              objective='multi:softprob', random_state=3255, reg_alpha=4,
+              reg_lambda=0.01, scale_pos_weight=6.800000000000001,
+              subsample=0.9, tree_method='auto', use_label_encoder=True,
+              validate_parameters=1, verbosity=0), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=feature, save=False, scale=1, system=True)
+2021-11-29 18:25:35,695:INFO:Checking exceptions
+2021-11-29 18:25:35,952:INFO:Preparing display monitor
+2021-11-29 18:25:35,959:INFO:Preloading libraries
+2021-11-29 18:25:36,258:INFO:Copying training dataset
+2021-11-29 18:25:36,260:INFO:Copying test dataset
+2021-11-29 18:25:36,262:INFO:Plot type: feature
+2021-11-29 18:25:36,743:WARNING:No coef_ found. Trying feature_importances_
+2021-11-29 18:25:37,133:INFO:Visual Rendered Successfully
+2021-11-29 18:25:37,284:INFO:plot_model() succesfully completed......................................
+2021-11-29 18:26:42,621:INFO:Initializing plot_model()
+2021-11-29 18:26:42,622:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=NMF(alpha=0.0, beta_loss='frobenius', init='nndsvd', l1_ratio=0.0, max_iter=200,
+    n_components=100, random_state=7, shuffle=False, solver='cd', tol=0.0001,
+    verbose=0), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=topic_distribution, save=False, scale=1, system=True)
+2021-11-29 18:26:42,622:INFO:Checking exceptions
+2021-11-29 18:26:57,362:INFO:Initializing plot_model()
+2021-11-29 18:26:57,363:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=NMF(alpha=0.0, beta_loss='frobenius', init='nndsvd', l1_ratio=0.0, max_iter=200,
+    n_components=100, random_state=7, shuffle=False, solver='cd', tol=0.0001,
+    verbose=0), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=auc, save=False, scale=1, system=True)
+2021-11-29 18:26:57,363:INFO:Checking exceptions
+2021-11-29 18:28:30,592:INFO:Initializing load_model()
+2021-11-29 18:28:30,592:INFO:load_model(model_name=Final NMF Model 29Dec2021, platform=None, authentication=None, verbose=True)
+2021-11-29 18:28:41,497:INFO:Initializing plot_model()
+2021-11-29 18:28:41,497:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=NMF(alpha=0.0, beta_loss='frobenius', init='nndsvd', l1_ratio=0.0, max_iter=200,
+    n_components=100, random_state=7, shuffle=False, solver='cd', tol=0.0001,
+    verbose=0), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=auc, save=False, scale=1, system=True)
+2021-11-29 18:28:41,497:INFO:Checking exceptions
+2021-11-29 18:29:37,711:INFO:Initializing plot_model()
+2021-11-29 18:29:37,711:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=NMF(alpha=0.0, beta_loss='frobenius', init='nndsvd', l1_ratio=0.0, max_iter=200,
+    n_components=100, random_state=7, shuffle=False, solver='cd', tol=0.0001,
+    verbose=0), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=topic_distribution, save=False, scale=1, system=True)
+2021-11-29 18:29:37,711:INFO:Checking exceptions
+2021-11-29 18:30:07,262:INFO:Initializing plot_model()
+2021-11-29 18:30:07,263:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=NMF(alpha=0.0, beta_loss='frobenius', init='nndsvd', l1_ratio=0.0, max_iter=200,
+    n_components=100, random_state=7, shuffle=False, solver='cd', tol=0.0001,
+    verbose=0), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=topic_model, save=False, scale=1, system=True)
+2021-11-29 18:30:07,264:INFO:Checking exceptions
+2021-11-29 18:30:19,331:INFO:Initializing plot_model()
+2021-11-29 18:30:19,332:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=NMF(alpha=0.0, beta_loss='frobenius', init='nndsvd', l1_ratio=0.0, max_iter=200,
+    n_components=100, random_state=7, shuffle=False, solver='cd', tol=0.0001,
+    verbose=0), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=wordcloud, save=False, scale=1, system=True)
+2021-11-29 18:30:19,332:INFO:Checking exceptions
+2021-11-29 18:31:34,642:INFO:Initializing plot_model()
+2021-11-29 18:31:34,642:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=NMF(alpha=0.0, beta_loss='frobenius', init='nndsvd', l1_ratio=0.0, max_iter=200,
+    n_components=100, random_state=7, shuffle=False, solver='cd', tol=0.0001,
+    verbose=0), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=tsne, save=False, scale=1, system=True)
+2021-11-29 18:31:34,642:INFO:Checking exceptions
+2021-11-29 18:32:07,968:INFO:Initializing plot_model()
+2021-11-29 18:32:07,968:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=0.7, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints='',
+              learning_rate=0.1, max_delta_step=0, max_depth=5,
+              min_child_weight=3, missing=nan, monotone_constraints='()',
+              n_estimators=130, n_jobs=-1, num_parallel_tree=1,
+              objective='multi:softprob', random_state=3255, reg_alpha=4,
+              reg_lambda=0.01, scale_pos_weight=6.800000000000001,
+              subsample=0.9, tree_method='auto', use_label_encoder=True,
+              validate_parameters=1, verbosity=0), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=tree, save=False, scale=1, system=True)
+2021-11-29 18:32:07,969:INFO:Checking exceptions
+2021-11-29 18:32:12,639:INFO:Initializing plot_model()
+2021-11-29 18:32:12,639:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=0.7, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints='',
+              learning_rate=0.1, max_delta_step=0, max_depth=5,
+              min_child_weight=3, missing=nan, monotone_constraints='()',
+              n_estimators=130, n_jobs=-1, num_parallel_tree=1,
+              objective='multi:softprob', random_state=3255, reg_alpha=4,
+              reg_lambda=0.01, scale_pos_weight=6.800000000000001,
+              subsample=0.9, tree_method='auto', use_label_encoder=True,
+              validate_parameters=1, verbosity=0), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=ks, save=False, scale=1, system=True)
+2021-11-29 18:32:12,640:INFO:Checking exceptions
+2021-11-29 18:32:12,904:INFO:Preparing display monitor
+2021-11-29 18:32:12,910:INFO:Preloading libraries
+2021-11-29 18:32:13,204:INFO:Copying training dataset
+2021-11-29 18:32:13,206:INFO:Copying test dataset
+2021-11-29 18:32:13,207:INFO:Plot type: ks
+2021-11-29 18:32:13,706:INFO:Generating predictions / predict_proba on X_test
+2021-11-29 18:32:18,890:INFO:Initializing plot_model()
+2021-11-29 18:32:18,890:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=0.7, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints='',
+              learning_rate=0.1, max_delta_step=0, max_depth=5,
+              min_child_weight=3, missing=nan, monotone_constraints='()',
+              n_estimators=130, n_jobs=-1, num_parallel_tree=1,
+              objective='multi:softprob', random_state=3255, reg_alpha=4,
+              reg_lambda=0.01, scale_pos_weight=6.800000000000001,
+              subsample=0.9, tree_method='auto', use_label_encoder=True,
+              validate_parameters=1, verbosity=0), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=learning, save=False, scale=1, system=True)
+2021-11-29 18:32:18,890:INFO:Checking exceptions
+2021-11-29 18:32:19,139:INFO:Preparing display monitor
+2021-11-29 18:32:19,145:INFO:Preloading libraries
+2021-11-29 18:32:19,443:INFO:Copying training dataset
+2021-11-29 18:32:19,445:INFO:Copying test dataset
+2021-11-29 18:32:19,446:INFO:Plot type: learning
+2021-11-29 18:32:19,976:INFO:Fitting Model
+2021-11-29 18:36:37,869:INFO:Initializing plot_model()
+2021-11-29 18:36:37,870:INFO:plot_model(fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=True, is_in_evaluate=True, display=None, display_format=None, estimator=XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=0.7, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints='',
+              learning_rate=0.1, max_delta_step=0, max_depth=5,
+              min_child_weight=3, missing=nan, monotone_constraints='()',
+              n_estimators=130, n_jobs=-1, num_parallel_tree=1,
+              objective='multi:softprob', random_state=3255, reg_alpha=4,
+              reg_lambda=0.01, scale_pos_weight=6.800000000000001,
+              subsample=0.9, tree_method='auto', use_label_encoder=True,
+              validate_parameters=1, verbosity=0), feature_name=None, fit_kwargs={}, groups=None, label=False, plot=auc, save=False, scale=1, system=True)
+2021-11-29 18:36:37,870:INFO:Checking exceptions
+2021-11-29 18:36:38,527:INFO:Preparing display monitor
+2021-11-29 18:36:38,538:INFO:Preloading libraries
+2021-11-29 18:36:39,090:INFO:Copying training dataset
+2021-11-29 18:36:39,095:INFO:Copying test dataset
+2021-11-29 18:36:39,098:INFO:Plot type: auc
+2021-11-29 18:36:39,893:INFO:Fitting Model
+2021-11-29 18:36:39,898:INFO:Scoring test/hold-out set
