@@ -11385,3 +11385,5 @@
 2021-11-29 18:36:39,098:INFO:Plot type: auc
 2021-11-29 18:36:39,893:INFO:Fitting Model
 2021-11-29 18:36:39,898:INFO:Scoring test/hold-out set
+2021-11-29 18:36:40,619:INFO:Visual Rendered Successfully
+2021-11-29 18:36:40,870:INFO:plot_model() succesfully completed......................................
