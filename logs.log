@@ -14877,3 +14877,46 @@ mlflow.exceptions.MlflowException: Experiment 'lda classify' already exists.
 2021-11-30 17:36:42,748:INFO:Starting cross validation
 2021-11-30 17:36:42,749:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
 2021-11-30 17:36:44,837:INFO:Calculating mean and std
+2021-11-30 17:36:44,838:INFO:Creating metrics dataframe
+2021-11-30 17:36:44,858:INFO:Finalizing model
+2021-12-02 17:52:39,360:INFO:PyCaret NLP Module
+2021-12-02 17:52:39,361:INFO:version 2.3.4
+2021-12-02 17:52:39,361:INFO:Initializing setup()
+2021-12-02 17:52:39,362:INFO:USI: a714
+2021-12-02 17:52:39,362:INFO:setup(data=(20313, 2), target=OPMeasurementProgram, custom_stopwords=None, html=True, session_id=None, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2021-12-02 17:52:39,362:INFO:Checking environment
+2021-12-02 17:52:39,363:INFO:python_version: 3.7.10
+2021-12-02 17:52:39,363:INFO:python_build: ('default', 'Feb 26 2021 13:06:18')
+2021-12-02 17:52:39,363:INFO:machine: AMD64
+2021-12-02 17:52:39,364:INFO:platform: Windows-10-10.0.22000-SP0
+2021-12-02 17:52:39,397:INFO:Memory: svmem(total=16951963648, available=8795639808, percent=48.1, used=8156323840, free=8795639808)
+2021-12-02 17:52:39,397:INFO:Physical Core: 4
+2021-12-02 17:52:39,397:INFO:Logical Core: 8
+2021-12-02 17:52:39,397:INFO:Checking libraries
+2021-12-02 17:52:39,398:INFO:pd==1.2.3
+2021-12-02 17:52:39,398:INFO:numpy==1.19.5
+2021-12-02 17:52:40,919:INFO:gensim==3.8.3
+2021-12-02 17:52:42,286:INFO:spacy==2.3.7
+2021-12-02 17:52:43,666:INFO:nltk==3.6.5
+2021-12-02 17:52:43,714:INFO:textblob==0.17.1
+2021-12-02 17:52:44,174:INFO:pyLDAvis==3.2.2
+2021-12-02 17:52:44,372:INFO:wordcloud==1.8.1
+2021-12-02 17:52:45,159:INFO:mlflow==1.21.0
+2021-12-02 17:52:45,160:INFO:Checking Exceptions
+2021-12-02 17:52:46,283:INFO:Preloading libraries
+2021-12-02 17:52:46,387:INFO:Preparing display monitor
+2021-12-02 17:52:46,408:INFO:Importing libraries
+2021-12-02 17:52:46,409:INFO:Declaring global variables
+2021-12-02 17:52:46,409:INFO:Input provided : dataframe
+2021-12-02 17:52:46,409:INFO:session_id set to : 8449
+2021-12-02 17:52:46,410:INFO:Copying training dataset
+2021-12-02 17:52:46,411:INFO:Importing stopwords from nltk
+2021-12-02 17:52:46,573:INFO:No custom stopwords defined
+2021-12-02 17:52:46,574:INFO:Removing numeric characters from the text
+2021-12-02 17:52:46,653:INFO:Removing special characters from the text
+2021-12-02 17:52:46,990:INFO:Tokenizing Words
+2021-12-02 17:52:47,364:INFO:Removing stopwords
+2021-12-02 17:52:47,666:INFO:Extracting Bigrams
+2021-12-02 17:52:48,055:INFO:Extracting Trigrams
+2021-12-02 17:52:49,065:INFO:Lemmatizing tokens
